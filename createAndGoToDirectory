@@ -1,0 +1,4 @@
+#! /usr/local/bin/zsh 
+mkdir $1
+which cd
+cd $1

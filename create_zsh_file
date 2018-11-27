@@ -3,6 +3,5 @@
 fileName=$1;
 touch $fileName;
 chmod +x $fileName;
-echo "#! /usr/local/bin/zsh" > $fileName;
-echo "" >> $fileName;
+echo "#! /usr/local/bin/zsh \n" > $fileName;
 vim $fileName;
